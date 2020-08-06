@@ -1,0 +1,90 @@
+* {
+	box-sizing:border-box;
+}
+
+header {
+	background:#a21221;
+}
+
+h1 {
+	color:white;
+	font-family:sans-serif;
+	float:left;
+	font-size:24pt;
+	line-height:20pt;
+	margin-left:20px;
+}
+
+h2 {
+	color:white;
+	font-family:sans-serif;
+	float:right;
+	margin-right:20px;
+	font-size:20pt;
+}
+
+#house {
+	width:100%;
+}
+
+#greyribbon {
+	flex-direction:ltr;
+	width:100%;
+}
+
+#greyribbon ul {
+	display:flex;
+	margin:auto;
+	list-style:none;
+	background:#f5f5f5;
+}
+
+#greyribbon li{
+	align-items:center;
+}
+
+h3 {
+	font-family:sans-serif;
+	font-size:18pt;
+	line-height:35pt;
+	width:100%;
+}
+
+#kwlogo {
+	width:60%;
+	float:right;
+}
+
+p {
+	font-family:sans-serif;
+	width:80%;
+	margin:auto;
+}
+p span {
+	font-weight:600;
+	font-size:14pt;
+}
+ul {
+	font-family:sans-serif;
+	list-style:circle inside;
+}
+ul span {
+	font-style:italic;
+}
+
+#businesscard {
+	width:50%;
+	margin:auto;
+}
+
+div {
+	background:#e06663;
+	width:50%;
+	float:right;
+}
+
+@media (max-width:840px) {
+	{
+
+	}
+}
