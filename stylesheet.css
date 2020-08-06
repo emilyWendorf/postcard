@@ -39,19 +39,15 @@ h2 {
 	background:#f5f5f5;
 }
 
-#greyribbon li{
-	align-items:center;
-}
-
 h3 {
 	font-family:sans-serif;
-	font-size:18pt;
-	line-height:35pt;
 	width:100%;
+	font-size:18pt;
+	white-space:nowrap;
 }
 
 #kwlogo {
-	width:60%;
+	max-width:60%;
 	float:right;
 }
 
@@ -64,12 +60,11 @@ p span {
 	font-weight:600;
 	font-size:14pt;
 }
-ul {
-	font-family:sans-serif;
-	list-style:circle inside;
-}
-ul span {
-	font-style:italic;
+
+a {
+	text-decoration:none;
+	color:darkred;
+	font-weight:600;
 }
 
 #businesscard {
